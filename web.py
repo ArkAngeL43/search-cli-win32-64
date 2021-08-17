@@ -4,14 +4,19 @@ import time
 import webbrowser
 
 
-def scan():
-    os.system(' python3 scan.py ')
+def art():
+    print(''' 
+        1
+        ''')
+
+def cls():
+    os.system('cls')
 
 def CS(X):
     time.sleep(X)
     os.system(' clear ')
 
-os.system(' clear ')
+cls()
 print(" [+] Amazon ")
 time.sleep(0.1)
 print(" [+] Google ")
@@ -19,8 +24,9 @@ time.sleep(0.1)
 print(" [+] Youtube ")
 time.sleep(1)
 A = str(input(" what website would you like to search? => "))
+cls()
 
-os.system(' clear ')
+
 
 
 if 'amazon' in A:
