@@ -6,7 +6,9 @@ import webbrowser
 
 def art():
     print(''' 
-        1
+________________________________________
+current search queries are the following|
+________________________________________|
         ''')
 
 def cls():
@@ -14,9 +16,10 @@ def cls():
 
 def CS(X):
     time.sleep(X)
-    os.system(' clear ')
+    cls()
 
 cls()
+art()
 print(" [+] Amazon ")
 time.sleep(0.1)
 print(" [+] Google ")
